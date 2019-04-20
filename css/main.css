@@ -1,0 +1,244 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+   body{
+      font-family: Open Sans Condensed;
+      margin-top: 0;
+  }
+
+
+      p{
+          font-size: 20px;
+          line-height: 1.5;
+      }
+
+/*********************FULL, HALF AND THIRD WIDTHS*******************/
+
+.full-width{
+    width:1210px;
+    height:250px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+.half-width{
+    width: 600px;
+    float:left;
+}
+
+
+.third-width{
+    width:400px;
+    height:250px;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+.title{
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/****************************INTRODUCTION/HEADER********************************/
+  header{
+    height: 700px;
+    background-image: url("../images-icons/hero-image.png");
+    background-size: cover;
+  }
+
+
+    header #introduction{
+      padding-top: 200px;
+      text-align: center;
+    }
+
+
+    header h1{
+      font-family:'Raleway', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 72px;
+      color: #cdcf49;
+      text-shadow: 0.5px 0.5px 0.5px #000;
+    }
+
+
+    header h2, h3{
+      text-align: center;
+    }
+
+
+    header p{
+      font-size: 30px;
+      color: #0d7187;
+      text-transform: uppercase;
+    }
+
+
+    header nav{
+      position: fixed;
+      right: 100px;
+      top: 100px;
+    }
+
+
+    header nav ul{
+      list-style-type: none;
+    }
+
+
+    header nav li a{
+      display: block;
+      text-decoration: none;
+      color:#fff;
+      background: #000;
+      text-align: center;
+      padding:15px;
+    }
+
+
+    nav li a:hover{
+      color: #000;
+      background: #fff;
+      font-weight:bold;
+    }
+
+
+    nav li:first-child a{
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+
+    nav li:last-child a{
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+/****************************PORTFOLIO************************************/
+
+    #portfolio{
+      height:1050px;
+    }
+
+
+        .project1{
+          background-image: url("../images-icons/holstee-manifesto1.png");
+        }
+
+
+        .project2{
+          background-image: url("../images-icons/jubilee-thumbnail.png");
+        }
+
+
+        .project3{
+          background-image: url("../images-icons/rogue-pickings-thumbnail.png");
+        }
+
+
+        .project1, .project2, .project3{
+          background-size:cover;
+          width: 430px;
+          height: 275px;
+          margin: auto;
+        }
+
+
+        .description p, #profile p{
+          padding: 10px;
+        }
+/****************************PROFILE************************************/
+
+#profile{
+  background-color:#17a3aa;
+  height: 700px;
+  margin-bottom:-47px;
+}
+
+
+    #profile .profile-pic{
+        background-image: url("../images-icons/profile2.png");
+        background-size:cover;
+        width: 200px;
+        height: 205px;
+        margin: auto;
+        border-radius: 100%;
+    }
+
+    #profile h2, .about{
+        color: #fff;
+}
+
+/****************************CONTACT************************************/
+
+#contact {
+    background-color: #5b605f;
+    height:650px;
+}
+
+  #contact h2{
+    color:#fff;
+  }
+
+    .third-width h3{
+      color:#afd310;
+    }
+
+    .third-width p{
+      color:#fff;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+        span {
+        border-radius:10px;
+        padding:15px;
+        background-color:#09589e;
+        color: #fff;
+      }
+
+      span:hover{
+        background-color: #8bbc18;
+        color:#09589e;
+      }
+
+        #contact .linkedin, .github, .twitter{
+          display: inline-block;
+          margin-right:30px;
+          width:50px;
+          height:50px;
+        }
+
+            #contact .linkedin{
+              background-image: url("../images-icons/linkedin.png");
+            }
+
+            #contact .github{
+              background-image: url("../images-icons/github.png");
+            }
+
+            #contact .twitter{
+              background-image: url("../images-icons/twitter.png");
+            }
+
+/*******************************FOOTER************************************/
+
+footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    height:300px;
+    bottom: 100px;
+}
+
+    footer p{
+      padding-top:100px;
+    }
